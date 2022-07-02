@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+:root {
+  --Orange: #fb7413;
+  --Orange--100:#e26811;
+}
+
+.text-paragrap {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.main {
+  min-height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  width: 26rem;
+  background-color:  hsl(213, 19%, 18%);
+  border-radius: 20px;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+i {
+  border-radius: 50%;
+  background-color: rgba(124, 135, 152, 0.1);
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.btn {
+  color: var(--Orange);
+  border-radius: 25px;
+  width: 100%;
+  text-transform: uppercase;
+  padding-block: 0.75rem;
+  padding-inline: 0.75rem;
+}
+
+.btn-light:hover,
+.btn-light:focus {
+  color: var(--Orange);
+  background-color: #f1f1f1;
+  border-color: #f9fafb;
+  box-shadow: none !important;
+}
+
+.rating {
+  color: rgba(124, 135, 152, 0.7);
+  border-radius: 50%;
+  background-color: hsl(210, 20%, 16%);
+  cursor: pointer;
+  padding-block: 1rem;
+  padding-inline: 1.25rem;
+}
+
+.rating:hover,
+.rating:focus {
+  background-color: var(--Orange);
+  color: #ffffff;
+}
+
+.space-b {
+  justify-content: space-between;
+}
+
+.active {
+  color: #ffffff;
+  background-color: hsl(217, 12%, 63%);
+}
+
+
+.item--center {
+  display: grid;
+  place-items: center;
+}
+
+
+.rating--text {
+  color:var(--Orange--100);
+  background-color: hsl(210, 20%, 16%);
+  border-radius: 20px;
+}
+
+.center-title {
+  text-align: center;
+}
+
+.text-gray {
+  color:  hsl(216, 12%, 54%);
+  font-size: 15px;
+}
+
+.px-custom {
+  padding-inline: 2.3rem;
+}
